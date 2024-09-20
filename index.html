@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Login - Grupo007</title>
+</head>
+<body>
+ <header>
+    <h2 class="logo">S E N A I</h2>
+    <nav class="navigation">
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+    <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+            <div class="form-box Login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Usuário:</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" id="password" required>
+                        <label>Senha:</label>
+                        <span class="toggle-password">
+                            <svg class="eye-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M12 5C7.03 5 3.4 8.41 1.57 12 3.4 15.59 7.03 19 12 19s8.6-3.41 10.43-7C20.6 8.41 16.97 5 12 5zm0 12.5c-3.04 0-5.5-2.46-5.5-5.5S8.96 6.5 12 6.5 17.5 8.96 17.5 12 15.04 17.5 12 17.5zm0-7.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <button type="submit" class="btn">Entrar</button>
+                </form>
+            </div>
+            
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
